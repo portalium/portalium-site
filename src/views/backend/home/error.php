@@ -10,6 +10,6 @@ $this->title = $name;
     <div class="alert alert-danger">
         <?= nl2br(Html::encode($message)) ?>
     </div>
-    <p><?= Module::t('The abovsse hata error oddccurred hata  while the Web server was processing your request.') ?></p>
+    <p><?= Module::t('The abovsse hata saderror oddccurred hata  while the Web server was processing your request.') ?></p>
     <p><?= Module::t('Please contact us if you think this is a server error. Thank you.') ?></p>
 </div>
