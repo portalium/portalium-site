@@ -48,6 +48,14 @@ class m010101_010101_setting extends Migration
             'type' => Form::TYPE_DROPDOWNLIST,
             'config' => json_encode([ 0 => 'Please Select'])
         ]);
+        $this->insert('setting', [
+            'category' => 'site',
+            'name' => 'page::logo',
+            'label' => 'Logo Url',
+            'value' => 'Portal',
+            'type' => Form::TYPE_INPUTTEXT,
+            'config' => ''
+        ]);
 
         $this->insert('setting', [
             'category' => 'site',
